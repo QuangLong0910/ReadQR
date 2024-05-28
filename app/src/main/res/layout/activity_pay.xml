@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/bt_week"
+        android:text="SubPremium"
+        android:textSize="14sp"
+
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_subA"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Buy 5 scans"
+
+        android:textSize="14sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_subB"
+        android:layout_width="200dp"
+        android:text="Buy 10 scans"
+
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:text="Buy 15 scans"
+        android:id="@+id/bt_subC"
+
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:text="EXIT"
+
+        android:textSize="14sp"
+        android:id="@+id/bt_exit"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
